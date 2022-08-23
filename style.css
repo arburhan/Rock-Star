@@ -1,3 +1,14 @@
+.topSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.topImage img {
+    width: 120px;
+}
+
 nav {
     display: flex;
     align-items: center;
