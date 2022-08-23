@@ -1,9 +1,15 @@
 .topSection {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
 }
 
+.topText {
+    padding-left: 150px;
+}
+
+.topImage {
+    padding-left: 70px;
+}
 
 .topImage img {
     width: 120px;
