@@ -15,6 +15,12 @@
     width: 120px;
 }
 
+.navigatons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 nav {
     height: 100px;
     background-color: darkslategray;
@@ -24,7 +30,7 @@ nav {
 ul li {
     list-style: none;
     font-size: 25px;
-    padding: 10px;
+    padding: 20px;
 }
 
 nav ul {
@@ -40,7 +46,7 @@ li a {
     display: none;
 }
 
-nav>ul>li:hover>ul {
+ul>li:hover>ul {
     display: block;
     background-color: darkslategray;
     position: absolute;
