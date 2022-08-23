@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px 70px 70px;
+}
+
+.nav-link ul {
+    display: flex;
+}
+
+.nav-link ul li {
+    list-style: none;
+    padding-left: 30px;
+}
+
+.nav-link ul button {
+    border: 0;
+    background-color: transparent;
+    font-family: Poppins;
+    font-size: 18px;
+    cursor: pointer;
+}
