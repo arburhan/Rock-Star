@@ -53,3 +53,27 @@ ul>li:hover>ul {
     padding: 0%;
     line-height: 35px;
 }
+
+/* blog */
+.blog-parent {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    justify-items: center;
+    padding: 10px;
+}
+
+/* sidebar */
+.sidebar-parent {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.side-button {
+    font-size: 18px;
+    color: white;
+    background-color: tomato;
+    border: 0;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
