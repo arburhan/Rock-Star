@@ -57,7 +57,7 @@ ul>li:hover>ul {
 /* blog */
 .blog-parent {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 20% 80%;
     justify-items: center;
     padding: 10px;
 }
